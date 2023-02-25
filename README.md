@@ -15,6 +15,7 @@ Optimized: A combination of a more powerful traversing algorithm (Z-curve) while
 To compile and run the code do:
 
 make CC=/opt/global/gcc-11.2.0/bin/gcc
+
 OMP_NUM_THREADS=16 srun --nodes=1 ./llcs-parallel-<version>
   
 (change OMP_NUM_THREADS for different thread count)
