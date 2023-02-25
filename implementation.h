@@ -8,6 +8,7 @@ void naive(int *src, int *dst, int SIZE)
 
 void aware(int *src, int *dst, int SIZE)
 {
+    //change t for different speed-ups
     int t = 8;
     
     for (int i = 0; i < SIZE; i += t) {
@@ -45,7 +46,7 @@ void oblivious(int *src, int *dst, int SIZE)
 
 void optimized(int *src, int *dst, int SIZE)
 {
-    
+    //change t for different speed-ups
     int t = 8;
     
     for (int z = 0; z < SIZE*SIZE; z += t*t) {
