@@ -1,7 +1,7 @@
 # cacheOptimization
-Four different implementations of matrix transposition function.
-
 This code is written in C. 
+
+Four different implementations of matrix transposition function.
 
 
 Naive approach: normal implementation.
